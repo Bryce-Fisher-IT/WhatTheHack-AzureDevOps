@@ -13,8 +13,8 @@ jobs:
     steps:
       - uses: danhellem/github-actions-issue-to-work-item@master
         env:
-          ado_token: "${{ secrets_ADO_PERSONAL_ACCESS_TOKEN }}"
-          github_token: "${{ secrets_GH_PERSONAL_ACCESS_TOKEN }}"
+          ado_token: "${{ secrets.ADO_PERSONAL_ACCESS_TOKEN }}"
+          github_token: "${{ secrets.GH_PERSONAL_ACCESS_TOKEN }}"
           ado_organization: "brycefisherit"
           ado_project: "What%20The%20Hack%20Azure%20DevOp"
           ado_iteration_path: "optional_iteration_path\\optional_iteration_path"
