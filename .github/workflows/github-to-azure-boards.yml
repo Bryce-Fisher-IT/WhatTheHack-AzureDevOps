@@ -16,7 +16,7 @@ jobs:
           ado_token: "${{ secrets.ADO_PERSONAL_ACCESS_TOKEN }}"
           github_token: "${{ secrets.GH_PERSONAL_ACCESS_TOKEN }}"
           ado_organization: "brycefisherit"
-          ado_project: "What%20The%20Hack%20Azure%20DevOp"
+          ado_project: "What The Hack Azure DevOp"
           ado_iteration_path: "optional_iteration_path\\optional_iteration_path"
           ado_wit: "User Story"
           ado_new_state: "New"
